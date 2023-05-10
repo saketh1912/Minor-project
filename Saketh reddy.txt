@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historical Places in India</title>
+  <style>
+    body {  /* applies styles to the entire body of the webpage */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+/*header,footer and main content classes are used to style specific sections of webpage*/
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .main-content {
+      padding: 20px;
+      margin-top: 60px; /* adjust this value based on the header height */
+      margin-bottom: 50px; /* adjust this value based on the footer height */
+    }
+    .places-container {  /*used to display flex container for historical places*/
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .place {  /*used to style individual historical places in the flex container*/
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+
+    .place img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .place h2 {
+      margin-top: 10px;
+    }
+
+    .place p {
+      margin-top: 5px;
+    }
+
+    .footer p {  /*applies style to the paragraph in the footer section*/
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Historical Places in India</h1>
+  </div>
+
+  <div class="main-content">
+    <div class="places-container">
+      <div class="place">
+        <img src="image1.jpg" alt="Taj Mahal">
+        <h2>Taj Mahal</h2>
+        <p>The Taj Mahal is an ivory-white marble mausoleum located in Agra, Uttar Pradesh, India. It was built by the Mughal emperor Shah Jahan in memory of his wife, Mumtaz Mahal.</p>
+      </div>
+
+      <div class="place">
+        <img src="image2.jpg" alt="Red Fort">
+        <h2>Red Fort</h2>
+        <p>The Red Fort is a historic fort located in Delhi, India. It served as the main residence of the Mughal emperors and is now a UNESCO World Heritage Site.</p>
+      </div>
+
+      <div class="place">
+        <img src="image3.jpg" alt="Hampi">
+        <h2>Hampi</h2>
+        <p>Hampi is an ancient village and UNESCO World Heritage Site in the state of Karnataka, India. It was the capital of the Vijayanagara Empire in the 14th century.</p>
+      </div>
+
+      <div class="place">
+        <img src="image4.jpg" alt="Qutub Minar">
+        <h2>Qutub Minar</h2>
+        <p>Qutub Minar is a minaret located in Delhi, India. It is the tallest minaret in the world made of bricks and is a UNESCO World Heritage Site.</p>
+	</div>
+	  <div class="place">
+    		<img src="image5.jpg" alt="Mysore Palace">
+   		 <h2>Mysore Palace</h2>
+    		<p>The Mysore Palace is a historical palace located in the city of Mysore, Karnataka, India. It is one of the most famous tourist attractions in the country.</p>
+  	</div>
+</div>
+</div>
+ <div class="footer">
+    <p>Designed and Developed by Tadi Saketh Reddy</p>
+  </div>
+</body>
+</html>
